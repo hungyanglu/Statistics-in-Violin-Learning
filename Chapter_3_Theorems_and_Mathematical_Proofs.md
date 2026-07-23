@@ -7,23 +7,23 @@ This chapter formulates and mathematically proves three core theorems governing 
 ## 1. Theorem 1: The Status-Stability Willingness Orthogonality Theorem
 
 ### Main Content
-A student's processed learning velocity state ($	ext{Learning\_Status } v_{i,t}$) and process consistency matrix ($	ext{Stability } \sigma_{w,i,t}$) occupy separate vector sub-spaces within a longitudinal state-space architecture. Consequently, observing a slow learning velocity does not mathematically bound a student to an unstable classification. Evaluating these orthogonal dimensions across the psychometric matrix allows us to objectively classify student motivation into Intrinsic High Motivation, Extrinsic High Motivation, or Low Motivation (Passive Detachment).
+A student's processed learning velocity state ($`\text{Learning\_Status } v_{i,t}`$) and process consistency matrix ($\text{Stability } \sigma_{w, i,t}$) occupy separate vector sub-spaces within a longitudinal state-space architecture. Consequently, observing a slow learning velocity does not mathematically bound a student to an unstable classification. Evaluating these orthogonal dimensions across the psychometric matrix allows us to objectively classify student motivation into Intrinsic High Motivation, Extrinsic High Motivation, or Low Motivation (Passive Detachment).
 
 ### Pedagogical Phrasing
 You cannot evaluate a child's true willingness or inner desire to learn simply by counting how many pages they turn each month. A student can progress very slowly through an advanced textbook technique (low Status) but do so with flawless, disciplined week-over-week consistency (high Stability), proving deep intrinsic willingness. Conversely, a flatlined Status accompanied by chaotic, volatile performance variance flags an unmotivated student whose preparation has detached from instruction.
 
 ### Mathematical Proof
-In our Local Linear Trend (LLT) state-space configuration, the system state vector is $\mathbf{X}_{i,t} = [\theta_{i,t}, v_{i,t}]^T$, where $\theta_{i,t}$ is absolute capability level and $v_{i,t}$ is hidden velocity. The prediction error residual at step $t$ is:
+In our Local Linear Trend (LLT) state-space configuration, the system state vector is $`\mathbf{X}_{i,t} = [\theta_{i,t}, v_{i,t}]^T`$, where $\theta_{i,t}$ is absolute capability level and $v_{i,t}$ is hidden velocity. The prediction error residual at step $t$ is:
 
-$$\epsilon_{i,t} = \text{Actual\_Level}_{i,t} - \hat{\mathbb{E}}[\theta_{i,t} \mid \mathbf{X}_{i,t-1}]$$
+$`$\epsilon_{i,t} = \text{Actual\_Level}_{i,t} - \hat{\mathbb{E}}[\theta_{i,t} \mid \mathbf{X}_{i,t-1}]$`$
 
 The Stability metric ($\sigma_{w, i, t}$) evaluates the rolling sample variance of this prediction innovation block:
 
-$$\sigma_{w, i, t} = \sqrt{\frac{1}{3}\sum_{\tau=t-2}^{t} \left(\epsilon_{i,\tau} - \bar{\epsilon}_{i,t}\right)^2}$$
+$`$\sigma_{w, i, t} = \sqrt{\frac{1}{3}\sum_{\tau=t-2}^{t} \left(\epsilon_{i,\tau} - \bar{\epsilon}_{i,t}\right)^2}$`$
 
 Because the conditional covariance structure of prediction errors depends strictly on filter convergence parameters and contains zero functional linkage to the absolute location of velocity $v_{i,t}$ [Harvey, 1989], the partial derivative of process variance with respect to velocity magnitude is identically zero:
 
-$$\frac{\partial \, \sigma_{w, i, t}}{\partial \, |v_{i,t}|} = 0$$
+$`$\frac{\partial \, \sigma_{w, i, t}}{\partial \, |v_{i,t}|} = 0$`$
 
 This mathematically proves vector orthogonality. We now prove the three motivation profiles:
 
@@ -102,12 +102,4 @@ $$\lim_{\text{Defect\_Density} \to 1.0} \frac{\partial \, \text{Efficiency\_Raw}
 
 This proves empty grinding heavily penalizes returns, triggering fatigue and attrition [Greene, 2018]. $\blacksquare$
 
----
 
-## 4. Academic Bibliography & Theoretical Foundations
-1. **Harvey, A. C. (1989)**. *Forecasting, Structural Time Series Models and the Kalman Filter*. Cambridge University Press.
-   * Provides the statistical foundation for dynamic linear modeling, time-series decomposition, and proving vector orthogonality between velocity trends and prediction error variances.
-2. **Durbin, J., & Koopman, S. J. (2012)**. *Time Series Analysis by State Space Methods* (2nd ed.). Oxford University Press.
-   * Establishes state-space estimation theory, Gaussian Markov processes, and Kalman gain attenuation rules for insulating latent state trajectories from transient observation noise.
-3. **Greene, W. H. (2018)**. *Econometric Analysis* (8th ed.). Pearson.
-   * Establishes production frontier modeling, non-linear return functions, panel data regression, and moderated interaction sensitivity proofs.
