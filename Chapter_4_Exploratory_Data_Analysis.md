@@ -8,16 +8,47 @@ This chapter presents the four core empirical exploratory data analyses across s
 To prevent visual clutter across the 14-student cohort, longitudinal multi-line rendering is executed using dynamic student sub-grouping masks across academic year time blocks:
 
 1. **Year 1 Block** ('2017-09-01' to '2018-08-31'):
-   * Single cohort chart tracking `Actual_Level`, `current_page`, `Learning_Status`, and `Stability` across all active students.
-   * Saved plot: [year1_macro_trends.png](file:///c:/Users/X413F/Documents/2023spring/Statistics%20in%20Violin%20Learning%282026%20revised%20version%29/Original%20Data/year1_macro_trends.png).
+   * Saved plot: [year1_macro_trends.png]
+
+Across the 2017/9–2018/8 academic year, textbook pages and actual level show a continuous overall upward trend. Both metrics rise steadily during the initial months, briefly plateau horizontally during the winter performance preparation period when regular textbook page-turning pauses, and then resume a rapid linear growth phase in the spring before settling into a milder growth slope in July and August as material difficulty increases.
+
+Except for Student 3, whose learning status gradually increases to a steady value, the cohort generally starts at an early high point, decreases over the first two months during the initial adjustment period, and then steadily rises back up to a stable level.
+
+Student stability follows two primary pathways: the first starts at a high initial volatility level and gradually decays over time, while the second begins near zero, rises to a mid-term peak during the learning adjustment phase, and then steadily decreases toward a low, consistent baseline.
 
 2. **Year 2 Block** ('2018-09-01' to '2019-08-31'):
-   * **Subgroup A** (Students 1, 2, 3, 4, 5, 6, 7, 8): Saved plot [year2_subgroup_a_macro_trends.png](file:///c:/Users/X413F/Documents/2023spring/Statistics%20in%20Violin%20Learning%282026%20revised%20version%29/Original%20Data/year2_subgroup_a_macro_trends.png).
-   * **Subgroup B** (Students 9, 10, 11, 12, 13, 14): Saved plot [year2_subgroup_b_macro_trends.png](file:///c:/Users/X413F/Documents/2023spring/Statistics%20in%20Violin%20Learning%282026%20revised%20version%29/Original%20Data/year2_subgroup_b_macro_trends.png).
+   * **Subgroup A** (Students 1, 2, 3, 4, 5, 6, 7, 8): Saved plot [year2_subgroup_a_macro_trends.png]
 
-3. **Year 3 Block** ('2019-09-01' to '2020-05-31'):
-   * **Subgroup A** (Students 1, 3, 4, 5, 6): Saved plot [year3_subgroup_a_macro_trends.png](file:///c:/Users/X413F/Documents/2023spring/Statistics%20in%20Violin%20Learning%282026%20revised%20version%29/Original%20Data/year3_subgroup_a_macro_trends.png).
-   * **Subgroup B** (Students 9, 10, 11, 13, 14): Saved plot [year3_subgroup_b_macro_trends.png](file:///c:/Users/X413F/Documents/2023spring/Statistics%20in%20Violin%20Learning%282026%20revised%20version%29/Original%20Data/year3_subgroup_b_macro_trends.png).
+Across the 2018/9–2019/8 academic year, textbook pages and actual level maintain a general upward trajectory. Both curves rise steadily in the autumn, enter a temporary horizontal plateau during the performance preparation period, where regular page-turning pauses, and then resume steady growth through the spring before moderating in the summer as technical difficulty increases.
+
+The cohort generally starts the year with moderate to high learning status, experiences a sharp dip toward zero during the winter performance preparation window when page progress stalls, and then rebounds back to a stable level in the spring.
+
+Performance volatility fluctuates early in the academic year before settling into a low, consistent baseline for continuing students through the spring.
+
+   * **Subgroup B** (Students 9, 10, 11, 12, 13, 14): Saved plot [year2_subgroup_b_macro_trends.png]
+
+Across the 2018/9–2019/8 academic year, textbook pages and actual level show a continuous overall upward trend. Both metrics climb steadily through the autumn, enter a temporary horizontal plateau during the performance preparation period when regular page-turning pauses, and then resume linear growth.
+
+The cohort generally starts the year with moderate to high learning status, experiences a temporary dip toward zero during the winter performance preparation window when regular page assignments pause, and subsequently rebounds back to a stable level.
+
+Like student 1-6 last year, student stability primarily follows two pathways: one starts with high initial volatility that gradually decays over time, while the other starts low, climbs to a peak during the mid-term adjustment phase, and then steadily decreases toward a consistent low baseline.
+
+2. **Year 3 Block** ('2019-09-01' to '2020-05-31'):
+   * **Subgroup A** (Students 1, 3, 4, 5, 6): Saved plot [year3_subgroup_a_macro_trends.png]
+  
+Student 5 consistently demonstrates the strongest overall capability, while Student 6 remains at the lowest tier before data concludes early (due to vacation), with Students 1, 3, and 4 catching up by the end of the term. Concurrently, textbook progression steadily advances for most individuals, though one student experiences a prolonged mid-year plateau before resuming progress.
+
+Learning velocity fluctuates considerably across the timeline, characterized by a noticeable collective dip near the beginning of spring 2020 followed by a dramatic acceleration and peak for several students toward the final months.
+
+Volatility reveals persistent behavioral and performance instability throughout the academic year, highlighted by severe disruption spikes during late autumn 2019 and frequent, wide oscillations during the spring months.
+
+   * **Subgroup B** (Students 9, 10, 11, 13, 14): Saved plot [year3_subgroup_b_macro_trends.png]
+
+Student 10 consistently leads the subgroup with the highest overall capability and textbook progression, while Student 14 remains at the lowest tier throughout the academic year. Concurrently, the other participants show steady, parallel upward trajectories in both capability and material coverage without sudden plateaus.
+
+Learning velocity diverges notably across the group, with Student 10 and Student 14 maintaining the highest and most active rates of progression. Meanwhile, the remaining students display steady, tightly clustered, and largely flat velocity trends over time.
+
+Volatility indicates varying degrees of consistency, highlighted by a massive initial disruption spike for Student 14 at the start of the term and intermittent, moderate fluctuations across the other members during the winter and spring months.
 
 ---
 
@@ -42,8 +73,45 @@ Tracks class sequence counts required to reach key Shinozaki textbook page miles
 Evaluates rolling defect occurrence probabilities across lesson sequence numbers ($t = 1$ to $130$) across the 18 flaw categories.
 * **Early-Stage High Defect Saturation**: `Bow hold`, `Wrist`, `Violin position`, `Neck` show peak occurrence ($p > 0.45$) during initial lesson sequence steps ($t \le 20$).
 * **Late-Stage Technical Flaws**: `Intonation`, `Reading music`, `Tempo`, `Beat` remain active through advanced pages ($t > 60$).
-* Saved Grid Plot (18 subplots): [defect_probability_lifespans.png](file:///c:/Users/X413F/Documents/2023spring/Statistics%20in%20Violin%20Learning%282026%20revised%20version%29/Original%20Data/defect_probability_lifespans.png).
+* Saved Grid Plot (18 subplots): [defect_probability_lifespans.png].
 
+Here are the brief descriptions for each problem:
+
+* Neck: Defect probability rises noticeably around the middle of the class sequence, reaching peaks near 0.6 before dropping sharply to zero toward the end.
+
+* Bow hold: Probability starts elevated near 0.8 at the beginning of the sequence and then quickly drops, remaining low and sporadic for the rest of the timeline.
+
+* Elbow: The probability stays consistently low and volatile, fluctuating mostly under 0.4 across the entire class sequence.
+
+* Wrist: Defect probability is highest at the very beginning of the sequence before dropping to near-zero for the majority of the timeline with only minor bumps.
+
+* Bow slipping: Probability exhibits high volatility throughout the first half and middle sections, eventually decreasing and dropping to zero toward the final classes.
+
+* Reading music: Defect probability remains consistently high and fluctuates frequently between 0.3 and 1.0 across the entire class sequence.
+
+* Intonation: Probability shows a steady upward trend over the sequence, reaching maximum values of 1.0 in the latter half before declining near the end.
+
+* Violin position: Defect probability stays relatively low and constrained mostly below 0.4 across the entire sequence.
+
+* Beat: Probability remains low and flat for most of the sequence, with a sharp spike appearing near the final classes.
+
+* Bow tilt: Defect probability stays low throughout the entire sequence, rarely exceeding 0.3 with several flat periods.
+
+* Tempo: Probability remains low for the majority of the sequence, showing moderate increases toward the later classes.
+
+* Bow pressure: Defect probability stays mostly low and sporadic, with a few isolated spikes occurring near the end of the sequence.
+
+* Finger pressure: Probability remains mostly near zero for the entire sequence, culminating in a sudden, sharp spike to 1.0 on the final classes.
+
+* Fingering: Defect probability increases progressively as the sequence advances, peaking significantly toward the final classes.
+
+* Focus: Probability stays low overall with a prominent peak reaching around 0.6 in the middle section of the sequence.
+
+* Bow markings: Probability is zero for the first third of the sequence, then rises significantly with high fluctuations and peaks reaching 1.0.
+
+* Swaying: Defect probability remains almost entirely at zero across the entire class sequence, with only a few minor blips.
+
+* Miscellaneous: Probability stays consistently low throughout the sequence, ending with a sharp spike to 1.0 near the final class numbers.
 ---
 
 ## 4. Analysis 4: Two-Month Interval Unified Cohort Problem Matrix
