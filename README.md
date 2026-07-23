@@ -129,7 +129,6 @@ graph TD
 .
 ├── README.md                              # Professional GitHub Landing Page
 ├── reports/                               # Full Master Report Suite
-│   ├── Executive_Abstract.md
 │   ├── Chapter_1_Data_Architecture_and_Modeling.md
 │   ├── Chapter_2_Metrics.md
 │   ├── Chapter_3_Theorems_and_Mathematical_Proofs.md
