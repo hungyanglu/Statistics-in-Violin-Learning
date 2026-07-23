@@ -308,7 +308,7 @@ Conversely, if a student focuses deeply on technical precision and compliance wi
 
 ---
 
-# Chapter 4: Exploratory Data Analysis (EDA)
+# Chapter 4: Exploratory Data Analysis
 
 This chapter presents the four core empirical exploratory data analyses across student academic years, textbook timelines, defect probability lifespans, and bi-monthly problem matrices.
 
