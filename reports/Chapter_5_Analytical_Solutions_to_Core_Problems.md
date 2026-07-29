@@ -91,6 +91,8 @@ Understanding why students drop out is critical for music academies. We analyze 
 - **Property 2 ($P_2$)**: Extrinsic High Motivation (Pressure-Induced Fatigue)
 - **Property 3 ($P_3$)**: Low Motivation (Active/Passive Detachment)
 
+Note: We do not show the actual reason for dropout. We only show the clues from the data.
+
 ---
 
 ### 2.2 Mathematical Classification Rules
