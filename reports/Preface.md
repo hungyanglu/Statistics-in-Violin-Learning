@@ -8,6 +8,6 @@ Effective teaching requires selecting appropriate instructional strategies to ad
 
 ---
 
-**Hung-Yang Lu**  
+Hung-Yang Lu
 Taoyuan, Taiwan  
 June 2020  
