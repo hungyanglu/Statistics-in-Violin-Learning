@@ -29,9 +29,9 @@ from scipy.cluster.hierarchy import linkage
 import warnings
 warnings.filterwarnings('ignore')
 
-base_dir = r"c:\Users\X413F\Documents\2023spring\Statistics in Violin Learning(2026 revised version)\Original Data"
-art_dir  = r"C:\Users\X413F\.gemini\antigravity\brain\9981a9e3-bb66-4b07-9f5c-463e4424414b"
-excel_path = os.path.join(base_dir, "violin_learning_results.xlsx")
+base_dir = r"path name"
+art_dir  = r"path name"
+excel_path = os.path.join(base_dir, "file name")
 
 defect_cols = [
     'Neck','Bow hold','Elbow','Wrist','Bow slipping','Reading music',
