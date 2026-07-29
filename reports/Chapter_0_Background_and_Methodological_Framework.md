@@ -2,7 +2,7 @@
 
 ## I. Data Description
 
-Before describing the dataset used to evaluate student performance, it is necessary to provide an overview of the research context. Throughout this study, three major indicators were used to evaluate students' violin-learning progress: **Progress Index**, **Total Number of Issues**, and **Practice Duration**. The breakdown of these three major indicators is as follows:
+Before describing the dataset used to evaluate student performance, it is necessary to provide an overview of the research context. Throughout this study, three major indicators were used to evaluate students' violin-learning progress: Progress Index, Total Number of Issues, and Practice Duration. The breakdown of these three major indicators is as follows:
 
 ### 1. Progress Index
 
@@ -137,4 +137,4 @@ During the learning process, students occasionally encountered performance-relat
 
 In addition to performance preparation, several external factors may have caused discrepancies between textbook progression and students' underlying learning levels. The first factor was external expectations, referring to situations in which parents, teachers, or other circumstances required students to advance to a specific textbook level beyond their current demonstrated ability. The second factor was lesson interruption due to vacations. Since lessons were conducted weekly, an absence of more than one week could affect learning continuity, while interruptions exceeding two weeks were expected to result in temporary declines in performance level.
 
-In this study, students' underlying learning states were assumed to be influenced by textbook progression, prior knowledge (for age-7 beginners), performance preparation periods, external expectations, and lesson interruptions caused by vacations. Since students' true learning states cannot be directly observed, they were inferred from observable indicators, including textbook progression and learning-related issues. Therefore, a **Dynamic Linear Model (DLM)** based on the Kalman Filter framework was adopted as the time-series modeling approach to estimate students' latent learning trajectories.
+In this study, students' underlying learning states were assumed to be influenced by textbook progression, prior knowledge (for age-7 beginners), performance preparation periods, external expectations, and lesson interruptions caused by vacations. Since students' true learning states cannot be directly observed, they were inferred from observable indicators, including textbook progression and learning-related issues. Therefore, a Dynamic Linear Model (DLM) based on the Kalman Filter framework was adopted as the time-series modeling approach to estimate students' latent learning trajectories.
