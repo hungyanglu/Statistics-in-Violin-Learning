@@ -22,8 +22,8 @@ import statsmodels.api as sm
 import warnings
 warnings.filterwarnings('ignore')
 
-base_dir = r"c:\Users\X413F\Documents\2023spring\Statistics in Violin Learning(2026 revised version)\Original Data"
-out_excel_path = os.path.join(base_dir, "violin_learning_results.xlsx")
+base_dir = r"path name"
+out_excel_path = os.path.join(base_dir, "file name")
 
 defect_cols = [
     'Neck','Bow hold','Elbow','Wrist','Bow slipping','Reading music',
