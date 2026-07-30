@@ -1,6 +1,6 @@
 # Statistics in Violin Learning
 
-> An end-to-end longitudinal psychometric state-space pipeline and causal inference system mapping weekly violin lesson tracking (1,213 observations across 14 students over 3 academic years) into unobserved latent capability states $`\text{Actual\_Level}_{i,t}`$ and six diagnostic human learning metrics.
+> An end-to-end longitudinal psychometric state-space pipeline and causal inference system mapping weekly violin lesson tracking (1,213 observations across 14 students over 3 academic years) into unobserved latent capability states $`\text{Actual\_Level}_{i,t}`$ and six diagnostic human learning metrics. This project was done in May 2020, and the revised 2nd version in July 2026.
 
 ---
 
